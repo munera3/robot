@@ -1,0 +1,99 @@
+<html>
+<head> 
+    <title>move robot</title>
+
+    </head>
+
+  <style>
+  	body {
+  		background:#F5F5F5;
+  	}
+  	header{
+    background-color: #F5F5F5;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px #887575;
+}
+    header li {
+	display: inline-block;
+    padding-right: 50px;
+}
+ 
+     .move{
+        margin-top: 10%;
+     }
+
+      .row {
+      display: inline;
+      justify-content: center;
+      align-items: center;
+      padding-left: 9.8%;
+
+      }
+  
+      .col {
+       display: block;
+       flex: 1;
+       text-align: center;
+       }
+
+    button {
+    width: 25%;
+    padding: 10px 20px ;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #116A7B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+    button:hover {
+        background: #9DB2BF;
+        color: black;
+
+    }
+
+  	
+  	
+  </style>
+
+    <body>
+    	  <header> 
+        <ul>
+            <li><img src="logosmart.png"alt=""></li>
+        
+        </ul>
+    </header>
+      
+   
+   
+    <form method="post" action="robotcontrol.php">
+        <div class="move">
+    <div class="col">
+        <button type="submit" name="btn" value="F">Forward</button>
+    </div>
+
+    <div class="row">
+        <button type="submit"name="btn" value="L">Left</button>
+        <button type="submit"name="btn" value="S">Stop</button>
+        <button type="submit"name="btn" value="R">Right</button>
+    </div>
+    
+        <div class="col">
+            <button type="submit"name="btn" value="B">Back</button>
+        </div>
+
+ 
+
+</form>
+  </div>    	
+
+       
+
+    </body>
+
+
+
+
+</html>
