@@ -1,5 +1,5 @@
 # robot
-**This tasks is a part of the summer training at the Smart Methods Company.**
+**This tasks one is a part of the summer training at the Smart Methods Company.**
 --------------------------------------
 **Task 1:**
 --------------------------------------
